@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F7532E79246119D200CF3DFF /* Episode.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7532E78246119D200CF3DFF /* Episode.swift */; };
 		F79E2C20246098C700EFDF7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79E2C1F246098C700EFDF7A /* AppDelegate.swift */; };
 		F79E2C22246098C700EFDF7A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79E2C21246098C700EFDF7A /* SceneDelegate.swift */; };
 		F79E2C24246098C700EFDF7A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79E2C23246098C700EFDF7A /* ContentView.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F7532E78246119D200CF3DFF /* Episode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Episode.swift; sourceTree = "<group>"; };
 		F79E2C1C246098C700EFDF7A /* BindingInSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BindingInSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F79E2C1F246098C700EFDF7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F79E2C21246098C700EFDF7A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +39,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F7532E77246119C200CF3DFF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F7532E78246119D200CF3DFF /* Episode.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		F79E2C13246098C700EFDF7A = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +66,7 @@
 		F79E2C1E246098C700EFDF7A /* BindingInSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				F7532E77246119C200CF3DFF /* Models */,
 				F79E2C1F246098C700EFDF7A /* AppDelegate.swift */,
 				F79E2C21246098C700EFDF7A /* SceneDelegate.swift */,
 				F79E2C23246098C700EFDF7A /* ContentView.swift */,
@@ -147,6 +158,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F79E2C20246098C700EFDF7A /* AppDelegate.swift in Sources */,
+				F7532E79246119D200CF3DFF /* Episode.swift in Sources */,
 				F79E2C22246098C700EFDF7A /* SceneDelegate.swift in Sources */,
 				F79E2C24246098C700EFDF7A /* ContentView.swift in Sources */,
 			);
